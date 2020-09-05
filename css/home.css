@@ -1,0 +1,112 @@
+body {
+    background-image: linear-gradient( to right, #474747, #919191, #474747, #919191);
+}
+
+.row {
+    max-width: 100%;
+}
+
+.split-pane .row {
+    max-width: 100%;
+    margin: 0;
+}
+
+.split-pane {
+    position: relative;
+}
+
+.split-pane h3 {
+    font-size: 25px;
+}
+
+.split-pane button {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 3px solid #ffffff;
+    border-radius: 0px;
+    width: 12em;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    padding: 0.3em;
+    padding-top: 0.7em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    cursor: pointer;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    transform: translate(-50%, -50%);
+}
+
+.split-pane button:hover {
+    text-decoration: none;
+    color: #333333;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-color: white;
+    cursor: pointer;
+}
+
+.cover-image {
+    width: 100%;
+    padding: 0px;
+    justify-content: center;
+    box-shadow: inset 10px 10px 20px black;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.split-pane .row .cover-image img {
+    padding: 6px;
+    padding-right: 14px;
+    /* padding-bottom: 20px; */
+    max-width: 104%;
+    max-height: auto;
+    transition: transform .6s;
+}
+
+.split-pane .row .cover-image img:hover {
+    -ms-transform: scale(1.03);
+    -webkit-transform: scale(1.013);
+    transform: scale(1.03);
+    opacity: 0.8;
+}
+
+
+/* Style the footer */
+
+.footer {
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: repeating-linear-gradient(45deg, #272727, #272727 10px, #363636 10px, #363636 20px);
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.footer p {
+    font-size: 80%;
+    color: #f2f2f2;
+}
+
+.footer h6 {
+    color: #f2f2f2;
+}
+
+.footer .row {
+    padding-top: 15px;
+    max-width: 100%;
+}
